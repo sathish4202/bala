@@ -1,0 +1,130 @@
+S&Ps members 
+
+flowchart TB
+
+    SPS["S&PS"]
+
+    SPS --> INDUSTRIAL
+    SPS --> ADVENG
+    SPS --> SANDTI
+    SPS --> SYSTEMS
+    SPS --> AC
+
+    %% INDUSTRIAL
+    subgraph INDUSTRIAL["Industrial"]
+
+        subgraph D3X["3DX (7 Members)"]
+            D3X_M1[Anand Kalal]
+            D3X_M2[Ravi Singh]
+            D3X_M3[Joel Gowder]
+            D3X_M4[Naveen Murugu]
+            D3X_M5[Vignesh Shanmugum]
+            D3X_M6[Amara Chandra]
+            D3X_M7[Md Thousif]
+        end
+
+        subgraph SOI["SOI Migration (13 Members)"]
+            SOI_M1[Gufran MD]
+            SOI_M2[Ashwath M]
+            SOI_M3[Pandiyan Arumugam]
+            SOI_M4[Jibin Philip]
+            SOI_M5[Santosh Choragi]
+            SOI_M6[Shiney Paul]
+            SOI_M7[Vignesh M]
+            SOI_M8[Shivaranjeni R]
+            SOI_M9[Srinivas Bhavani]
+            SOI_M10[Gagan deep V L]
+            SOI_M11[Boopathi Raja]
+            SOI_M12[Chellapandi]
+            SOI_M13[Rajesh]
+        end
+
+        subgraph ROB["Robotics (3 Members)"]
+            ROB_M1[Gokul Parthi]
+            ROB_M2[Nandan S]
+            ROB_M3[Abhishek Bhat]
+        end
+
+        subgraph IIEIS["IIEIS (9 Members)"]
+            IIEIS_M1[Sadanand Muttagi]
+            IIEIS_M2[Sai Arala Swaraj]
+            IIEIS_M3[Anshika Saraswat]
+            IIEIS_M4[Koushik Mysa]
+            IIEIS_M5[Nishanth]
+            IIEIS_M6[Anshita Gandla]
+            IIEIS_M7[Akshay Chikali]
+            IIEIS_M8[Manu TR]
+            IIEIS_M9[Siddhanth]
+        end
+
+        subgraph TOOL["Tooling (7 Members)"]
+            TOOL_M1[Jenita Rukkamah]
+            TOOL_M2[Narayanan]
+            TOOL_M3[Deepak]
+            TOOL_M4[Madivalappa-Sunit]
+            TOOL_M5[Thilakraj]
+            TOOL_M6[Rohit]
+            TOOL_M7[Akash Ketan]
+        end
+
+        subgraph SKY["Skywise (1 Member)"]
+            SKY_M1[DhruvSwamy]
+        end
+
+        subgraph BOS["BOS (1 Member)"]
+            BOS_M1[Prajwal R]
+        end
+
+    end
+
+    %% ADVANCED ENGINEERING
+    subgraph ADVENG["Advanced Engineering (14 Members)"]
+        AE_M1[Durganga Sai Kumar]
+        AE_M2[Narmada K]
+        AE_M3[Sireesha D]
+        AE_M4[Ashish Choudhary]
+        AE_M5[Mani Madhishetti]
+        AE_M6[Naveen Yankanchi]
+        AE_M7[Mohammed Shasilkhan S]
+        AE_M8[Megha Santhosh]
+        AE_M9[Priyabrata Gouda]
+        AE_M10[Mohana Injavarapu]
+        AE_M11[Chandra Sekhara Reddy Kota]
+        AE_M12[Madhushree BV]
+        AE_M13[Ravi Shanker Shukla]
+        AE_M14[Kritish Sharma]
+    end
+
+    %% S&TI
+    subgraph SANDTI["S&TI (7 Members)"]
+        STI_M1[Rahul D]
+        STI_M2[Rishu Gupta]
+        STI_M3[Shreyash pant]
+        STI_M4[Shubham Pawaskar]
+        STI_M5[Faisal Hayat]
+        STI_M6[Devika]
+        STI_M7[Chaitra]
+    end
+
+    %% SYSTEMS
+    subgraph SYSTEMS["Systems (9 Members)"]
+        SYS_M1[Karthik PR]
+        SYS_M2[Digja]
+        SYS_M3[Abhishek MC]
+        SYS_M4[Sanket]
+        SYS_M5[Pavithra Sundramoorthy]
+        SYS_M6[Shishir]
+        SYS_M7[Vinod]
+        SYS_M8[Sivaprakashi]
+        SYS_M9[Abhihijit Anil]
+    end
+
+    %% AIRCRAFT CONTROL
+    subgraph AC["Aircraft Control (6 Members)"]
+        AC_M1[Swanand]
+        AC_M2[Vineeth]
+        AC_M3[tarun]
+        AC_M4[Anjali]
+        AC_M5[Aamir Pulla]
+        AC_M6[Yeshes]
+    end
